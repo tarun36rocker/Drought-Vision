@@ -29,16 +29,6 @@ Below is a visualization of model performance on sample images.
 
 ![Model Performance](git/performance.png)
 
----
-
-## Real-Time Output  
-
-A screenshot showing how the model performs on real satellite imagery, highlighting segmented water bodies and detected drought signals.  
-
-![Real-Time Output](git/real-time-performance.png)
-
----
-
 ## Drought Monitoring Methodology  
 
 Drought detection is performed using a computer vision-based temporal analysis pipeline:
@@ -57,6 +47,14 @@ Drought detection is performed using a computer vision-based temporal analysis p
 
 ---
 
+## Real-Time Output  
+
+A screenshot showing how the model performs on real satellite imagery, highlighting segmented water bodies and detected drought signals.  
+
+![Real-Time Output](git/real-time-performance.png)
+
+---
+
 ## Key Insight  
 
 By combining **semantic segmentation with temporal analysis**, the system moves beyond static detection and enables **continuous environmental monitoring**, making it suitable for real-world drought prediction scenarios.
@@ -70,7 +68,3 @@ By combining **semantic segmentation with temporal analysis**, the system moves 
 - U-Net Architecture  
 - OpenCV  
 - NumPy, Matplotlib  
-
-- Incorporate multi-spectral satellite data (NDWI, NDVI)  
-- Add seasonal normalization for more robust thresholding  
-- Deploy as a real-time monitoring dashboard  
