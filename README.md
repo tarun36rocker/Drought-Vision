@@ -29,6 +29,8 @@ Below is a visualization of model performance on sample images.
 
 ![Model Performance](git/performance.png)
 
+---
+
 ## Drought Monitoring Methodology  
 
 Drought detection is performed using a computer vision-based temporal analysis pipeline:
